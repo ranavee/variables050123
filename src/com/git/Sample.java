@@ -10,11 +10,12 @@ public class Sample {
 		for (String a : split) {
 			String rev = "";
 
-			for (int i = a.length() - 1 ; i>=0 ; i--) {
+			for (int i = a.length() - 1; i >= 0; i--) {
 				rev = rev + a.charAt(i);
 			}
 
-			System.out.print(output = rev + " ");
+			output = rev + " ";
+			System.out.print(output);
 		}
 	}
 

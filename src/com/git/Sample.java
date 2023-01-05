@@ -10,10 +10,11 @@ public class Sample {
 		for (String a : split) {
 			String rev = "";
 
-			for (int i = a.length() - 1 ; i>=0 ; i--) {
+			for (int i = a.length() - 1; i >= 0; i--) {
 				rev = rev + a.charAt(i);
 			}
 
+			System.out.println("b1 branch push");
 			System.out.print(output = rev + " ");
 		}
 	}
